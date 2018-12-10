@@ -13,7 +13,7 @@ The file `Behavioral_Cloning.ipynb` does the following:
 
 ### 1. Download, store, and clean data from manual drives
 
-The program first retrieves csv data representing the `steering angle`, `throttle`, `reverse` and `speed`, as well as the images corresponding camera images (left, center and right). The program then cleans and unbiases the data.
+The program first retrieves csv data representing the `steering angle`, `throttle`, `reverse` and `speed`, as well as the images corresponding camera images (left, center and right). The program then cleans and unbiases the data. The data comes from manual drives stored at https://github.com/tylerlum/self-driving-car-data-track-1
 
 ![alt text](images/Unbias_Data.png?raw=true "Unbias Data")
 
