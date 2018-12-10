@@ -4,11 +4,8 @@ The purpose of this repository is to use a Nvidia model to control an autonomous
 
 ## Videos showing Successful Model
 
-[Training]
-
-[Success on Same Track]
-
-[Success on New Track]
+### Autonomous Driving on New Track
+![Alt Text](gifs/Autonomous_New.gif)
 
 ## Behavioral Cloning
 
