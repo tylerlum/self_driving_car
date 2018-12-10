@@ -22,12 +22,33 @@ The program first retrieves csv data representing the `steering angle`, `throttl
 
 ### 2. Perform augmentation techniques on images to improve the dataset
 
-To improve the robustness of the model, the program uses augmentation techniques to vary the dataset. These include `zoom`, `pan`, `reflection`, and `brightness`.
+To improve the robustness of the model, the program uses augmentation techniques to vary the dataset. These include:
 
+#### Zoom
+
+Zooms into the image.
 ![alt text](images/Zoom.png?raw=true "Zoom")
+
+#### Pan
+
+Translate the image.
 ![alt text](images/Pan.png?raw=true "Pan")
+
+#### Flip
+
+Performs a horizontal flip of the image. Also requires the steering angle be flipped as well to still be accurate.
 ![alt text](images/Flip.png?raw=true "Flip")
+
+#### Brightness
+
+Varies brightness of image. Mostly darkens, as it proved more effective for the model.
 ![alt text](images/Brightness.png?raw=true "Brightness")
+
+#### Random Augmentation
+
+The program augments images in a random distribution to ensure that variety is preserved.
+
+![alt text](images/Random_Augmentation.png?raw=true "Random Augmentation")
 
 ### 3. Preprocess images
 
@@ -40,7 +61,9 @@ Next, the program converts the RBG images to YUV images, which have proven very 
 ### 4. Create and saves a Nvidia model
 
 The program then creates a Nvidia model, based on the following diagram.
-[Nvidia model]
+
+![alt text](images/Nvidia_Model.png?raw=true "Nvidia Model")
+
  
 A file called `<name>.h5` will be saved, which stores the trained and validated Nvidia model.
 
