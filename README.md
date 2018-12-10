@@ -18,24 +18,24 @@ The file `Behavioral_Cloning.ipynb` does the following:
 
 The program first retrieves csv data representing the `steering angle`, `throttle`, `reverse` and `speed`, as well as the images corresponding camera images (left, center and right). The program then cleans and unbiases the data.
 
-[Graph with Bias]
-
-[Graph without Bias]
+![alt text](images/Unbias_Data.png?raw=true "Unbias Data")
 
 ### 2. Perform augmentation techniques on images to improve the dataset
 
 To improve the robustness of the model, the program uses augmentation techniques to vary the dataset. These include `zoom`, `pan`, `reflection`, and `brightness`.
 
-[Zoom]
-[Pan]
-[Flip]
-[Brightness]
+![alt text](images/Zoom.png?raw=true "Zoom")
+![alt text](images/Pan.png?raw=true "Pan")
+![alt text](images/Flip.png?raw=true "Flip")
+![alt text](images/Brightness.png?raw=true "Brightness")
 
 ### 3. Preprocess images
 
 Next, the program converts the RBG images to YUV images, which have proven very effective for Nvidia models.
 
-[Preprocess]
+![alt text](images/Preprocess.png?raw=true "Preprocess")
+
+![alt text](images/Preprocess_Augmentation.png?raw=true "Preprocess+Augmentation")
 
 ### 4. Create and saves a Nvidia model
 
